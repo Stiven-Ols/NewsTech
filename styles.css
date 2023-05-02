@@ -275,7 +275,8 @@ hr {
         width: 100%;
         padding: 20px;
         transform: translateY(-800px);
-        opacity: 0.9;
+        opacity: 2;
+        z-index: 1;
         transition: 0.5s ease-in-out;
         text-align: center;
     }
@@ -357,6 +358,11 @@ hr {
 }
 
 @media (max-width: 500px) {
+
+    .nav-main ul.nav-menu {
+        opacity: 2;
+    }
+
     .news-cards {
         grid-template-columns: 1fr;
     }
